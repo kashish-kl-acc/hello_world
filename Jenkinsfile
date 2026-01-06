@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = "kashish2001/hello-world"
         IMAGE_TAG  = "${BUILD_NUMBER}"
-        DOCKER_CREDS = credentials('dockerhub-credentials')
+        DOCKER_CREDS = credentials('Dockerhub-Credentials')
     }
 
     stages {
